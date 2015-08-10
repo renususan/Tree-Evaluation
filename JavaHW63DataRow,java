@@ -1,0 +1,28 @@
+/** Class that hold each row in the data set
+ * @author Renu Thomas
+ * @Date 07/21/2014
+ */
+import java.util.ArrayList;
+
+public class JavaHW63DataRow {
+
+	private double yValue;
+	private ArrayList<Double> xValue = new ArrayList<Double>();
+
+	public void addXValue(double d) {
+		xValue.add(d);
+	}
+
+	public ArrayList<Double> getXValue() {
+		return xValue;
+	}
+
+	public double getyValue() {
+		return yValue;
+	}
+
+	public void setyValue(double yValue) {
+		this.yValue = yValue;
+	}
+
+}
